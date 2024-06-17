@@ -1,0 +1,46 @@
+{
+	"name": "vite-project",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "eslint --fix . --ext js,jsx",
+		"format": "prettier --write .",
+		"preview": "vite preview",
+		"prepare": "husky"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.11.4",
+		"@emotion/styled": "^11.11.5",
+		"@mui/icons-material": "^5.15.19",
+		"@mui/material": "^5.15.19",
+		"@mui/styled-engine-sc": "^6.0.0-alpha.18",
+		"axios": "^1.7.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.23.1",
+		"styled-components": "^6.1.11",
+		"sweetalert2": "^11.11.1"
+	},
+	"devDependencies": {
+		"@types/react": "^18.2.56",
+		"@types/react-dom": "^18.2.19",
+		"@vitejs/plugin-react": "^4.2.1",
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-config-standard": "^17.1.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-n": "^16.6.2",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-plugin-react": "^7.34.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.5",
+		"husky": "^9.0.11",
+		"lint-staged": "^15.2.2",
+		"pretier": "0.0.1",
+		"prettier": "3.2.5",
+		"vite": "^5.1.4"
+	}
+}
